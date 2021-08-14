@@ -13,7 +13,7 @@
 ✔️ Images handled by [Cloudinary](https://cloudinary.com/)  
   
   
-***TODO List***
+## TODO List:
 - [ ] *500 & 404 errors pages* 😴
 - [ ] *Caching* 🤔
 - [ ] *ToS & Privacy Policy pages* 🤨
@@ -23,7 +23,7 @@
 - [ ] ~~Email Verification when creating an account~~	*(unnecessary)*  😄
   
   
-###### How to start:
+## How to start:
 You need to have MongoDB installed on your machine!!!
 
 - Clone the repo
@@ -73,13 +73,15 @@ $ npm start
 ```  
   
   
-###### How to contribute:
+## How to contribute:
 1. Fork this repo
 2. Create your feature branch (git checkout -b my-new-super-feature)
 3. Commit your changes (git commit -a -m 'Add some cool feature')
 4. Push to the branch (git push origin my-new-super-feature)
 5. Create a new pull request
   
+  
+## Images: 
   
 ![infinity_1](https://user-images.githubusercontent.com/88940768/129456041-823e6a4f-c467-40ee-9a05-e98b65023d59.png)
 ![infinity_2](https://user-images.githubusercontent.com/88940768/129456045-6de7cb6c-832e-4a73-9715-4eb546e8cca4.png)
