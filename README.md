@@ -5,7 +5,7 @@
 ## Infinity is a small Twitter-like social media app built with NextJS.  
   
 ###### Infinity:  
-✔️ (Next.js)[https://github.com/vercel/next.js/] (React with SSR & SSG)  
+✔️ [Next.js](https://github.com/vercel/next.js/) (React with SSR & SSG)  
 ✔️ Tweets system built with MongoDB  
 ✔️ Authentication system built with NextAuth.js  
 ✔️ SEO Friendly & Blazing Fast  
