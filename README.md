@@ -1,4 +1,4 @@
-Infinity
+![lighthouse](https://user-images.githubusercontent.com/88940768/129455672-b67400c1-9d2c-414a-bff1-08d34eccb2a5.png)
 
 Infinity is a small Twitter-like social media app built with NextJS.
 
@@ -12,17 +12,11 @@ Infinity:
 TODO List:
 
 Add:
-
-# 500 & 404 errors pages
-
-# Caching
-
-# ToS & Privacy Policy pages
-
-# Security Headers
-
-# Support for Mobile Devices
+• 500 & 404 errors pages
+• Caching
+• ToS & Privacy Policy pages
+• Security Headers
+• Support for Mobile Devices
 
 Improve:
-
-# Poor Design of Attributions Page
+• Poor Design of Attributions Page
