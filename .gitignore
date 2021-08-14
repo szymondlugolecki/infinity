@@ -3,6 +3,9 @@
 #database
 /db
 
+#package-lock
+package-lock.json
+
 # dependencies
 /node_modules
 /.pnp
