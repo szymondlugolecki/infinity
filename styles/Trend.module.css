@@ -1,0 +1,12 @@
+.mainContent {
+  min-width: 630px;
+  width: 630px;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  min-height: 100%;
+}
+
+.homePagePosts {
+  overflow: auto;
+  width: 100%;
+}

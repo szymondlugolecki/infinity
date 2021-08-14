@@ -1,0 +1,138 @@
+.rightPanel {
+  height: 100vh;
+  width: 350px;
+  min-width: 350px;
+
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.recentPosts {
+  width: 100%;
+  height: 440px;
+  min-height: 440px;
+  background: rgb(41, 41, 41);
+
+  padding: 10px 0;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.noTrendsFound {
+  width: 100%;
+  text-align: center;
+}
+
+.noTrendsFound span {
+  font-size: 20px;
+}
+
+.trendContainer {
+  padding: 5px 0 5px 25px;
+  width: 100%;
+  height: 75px;
+  min-height: 75px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.trendBreakBullet {
+  font-size: 22px;
+  margin: 0 8px;
+}
+
+.trendNameSpan {
+  font-size: 20px;
+}
+
+.trendContainer:hover .trendNameSpan {
+  color: aqua;
+}
+
+.trendCountSpan {
+  font-size: 14px;
+  color: rgb(167, 167, 167);
+}
+
+.trendContainer:hover {
+  background: rgb(27, 27, 27);
+  color: white;
+}
+
+.trendsForYou {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.trendsForYou span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.legalStuff {
+  width: 100%;
+  height: 30px;
+  color: rgb(66, 66, 66);
+  margin-top: 15px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.legalStuff a {
+  font-size: 15px;
+}
+
+.legalStuff a:hover {
+  color: rgb(97, 97, 97);
+}
+
+@media only screen and (max-width: 1340px) {
+  .rightPanel {
+    width: 250px;
+    min-width: 250px;
+  }
+
+  .trendContainer {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .trendBreakBullet {
+    display: none;
+  }
+
+  .trendCountSpan {
+    display: none;
+  }
+
+  .legalStuff a {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .rightPanel {
+    display: none;
+  }
+
+  .legalStuff {
+    display: none;
+  }
+}

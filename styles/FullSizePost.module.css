@@ -1,0 +1,115 @@
+.postFullSizeContainer {
+  width: 630px;
+  min-width: 630px;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  height: 100%;
+}
+
+.rightPanel {
+  height: 90vh;
+  width: clamp(100px, 350px, 350px);
+
+  position: sticky;
+  top: 0;
+}
+
+.postMyComment {
+  width: 100%;
+  min-height: 60px;
+  border-bottom: 1px solid whitesmoke;
+
+  display: flex;
+  align-items: flex-start;
+  padding: 6px;
+}
+
+.postMyCommentLeftSide {
+  width: clamp(70px, 70px, 70px);
+  min-height: 70px;
+}
+
+.postMyCommentRightSide {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.postMyCommentRightSide textarea {
+  resize: none;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  user-select: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  background: transparent;
+  color: white;
+  padding: 10px 0 10px 0;
+
+  overflow: hidden;
+
+  border-bottom: 1px solid whitesmoke;
+
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  -o-transition: border 0.5s;
+  transition: border 0.5s;
+}
+
+.postButton {
+  background: rgb(200, 0, 67);
+  border: none;
+  border-radius: 24px;
+  outline: none;
+  color: whitesmoke;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 8px 12px 8px 12px;
+  cursor: pointer;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s;
+
+  margin-top: 10px;
+  max-width: 90px;
+}
+
+.commentsAreBelow {
+  width: 100%;
+  min-height: 46px;
+  border-bottom: 1px solid whitesmoke;
+
+  color: whitesmoke;
+  font-size: 24px;
+  text-align: center;
+
+  background: rgb(20, 19, 16);
+}
+
+.commentFeedbackElement span {
+  min-width: 40px;
+  font-size: 15px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.loversCount {
+  margin-left: 5px;
+}
+
+.notLovedComment {
+  filter: saturate(1%);
+}
+
+.notLovedComment:hover {
+  filter: saturate(40%);
+}

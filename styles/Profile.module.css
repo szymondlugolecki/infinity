@@ -1,0 +1,82 @@
+.mainContent {
+  min-width: 630px;
+  width: 630px;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  min-height: 100%;
+}
+
+.rightPanel {
+  height: 90vh;
+  width: clamp(100px, 350px, 350px);
+
+  position: sticky;
+  top: 0;
+}
+
+.profileBox {
+  width: 100%;
+  min-height: 150px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  border-bottom: 1px solid whitesmoke;
+
+  padding: 0 5px 10px 0;
+  background: rgb(20, 20, 20);
+}
+
+.profileBoxLeftContainer {
+  width: clamp(120px, 120px, 120px);
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+}
+
+.profileBoxLeftContainer img {
+  border-radius: 50%;
+  border: 3px solid whitesmoke;
+}
+
+.profileBoxRightContainer {
+  width: 100%;
+  height: 100%;
+  color: whitesmoke;
+  padding: 15px 10px 20px 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  position: relative;
+}
+
+.profileBoxUsernameContainer {
+  width: 100%;
+  height: clamp(20px, 20px, 20px);
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.profileBoxBioContainer {
+  width: 100%;
+  margin: 24px 0;
+  color: rgb(218, 218, 218);
+}
+
+.profileBoxJoinedContainer {
+  width: 100%;
+  height: clamp(24px, 24px, 24px);
+  position: absolute;
+  bottom: 0;
+}
+
+.profileAndPostsBreak {
+  height: clamp(20px, 20px, 20px);
+  width: 100%;
+  border-bottom: 1px solid whitesmoke;
+}
