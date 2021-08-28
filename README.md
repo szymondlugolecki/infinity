@@ -14,6 +14,7 @@
   
   
 ## TODO List:
+- [ ] **Improve the design**
 - [ ] *500 & 404 errors pages* 😴
 - [ ] *Caching* 🤔
 - [ ] *ToS & Privacy Policy pages* 🤨
